@@ -1,14 +1,14 @@
 package com.example.yash;
 
-import org.springframework.stereotype.Service;
 import java.util.List;
+
+import org.springframework.stereotype.Service;
 
 @Service
 public class ExpenseService {
 
     private final ExpenseRepository repository;
 
-    // ✅ Manually added constructor
     public ExpenseService(ExpenseRepository repository) {
         this.repository = repository;
     }

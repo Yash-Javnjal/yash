@@ -18,7 +18,6 @@ public class ExpenseController {
 
     private final ExpenseService service;
 
-    // ✅ Manually written constructor
     public ExpenseController(ExpenseService service) {
         this.service = service;
     }
